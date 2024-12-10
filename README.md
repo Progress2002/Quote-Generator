@@ -1,50 +1,55 @@
-# React + TypeScript + Vite
+# Quote-Generator
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Description
 
-Currently, two official plugins are available:
+A Quote Generator web app randomly displays inspiring quotes. Users can refresh the page to get a new quote and share it on social media platforms like Twitter and Tumblr. The app features a dynamic background color that changes with each new quote, providing a fresh, visually appealing experience every time.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Expanding the ESLint configuration
+## Build With
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- Editor : Visual studio code
 
-- Configure the top-level `parserOptions` property like this:
+- Languages
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+  - [ ] HTML
+  - [ ] TailwindCSS
+  - [ ] React
+  - [ ] Typescript
+
+## Live
+
+[Live](https://quote-generator-iota-kohl.vercel.app/)
+
+## Getting Started
+
+step 1:
+Clone this repo locally using git in the command line and the following command
+
+```
+git clone https://github.com/Progress2002/Quote-Generator
 ```
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+Alternatively, you can just download the complete zip file and extract the folder in your directory
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+Step 2:
+Copy All Project files and run using VSCODE. HTML can be viewed in browser.
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+
+
+## Author
+
+👤 **Progress C. Ezeamaka**
+
+- GitHub: [@githubhandle](https://github.com/Progress2002)
+- Twitter: [@twitterhandle](https://twitter.com/Progress_2002)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/progress-c-ezeamaka/)
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](https://github.com/Progress2002/Quote-Generator/issues).
+
+## Show your support
+
+Give a ⭐️ if you like this project!

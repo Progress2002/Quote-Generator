@@ -67,7 +67,7 @@ function App() {
           className="bg-white rounded px-5 md:px-14 py-10 mt-12">
           <h1
             id="text"
-            className={`flex items-baseline font-roboto_slab gap-2 text-xl md:text-3xl font-normal transition-opacity duration-1000  ${
+            className={`flex items-baseline font-roboto_slab gap-2 text-xl md:text-2xl font-normal transition-opacity duration-1000  ${
               fade ? "opacity-20" : "opacity-100"
             }`} // Apply fade-out and fade-in transition
             style={{ color: bgColor }}>
