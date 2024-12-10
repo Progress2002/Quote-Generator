@@ -8,7 +8,7 @@ const Footer = () => {
           className="ml-1"
           target="_blank"
           rel="noopener noreferrer">
-          Progress
+          Progress C. Ezeamaka
         </a>
       </p>
     </footer>
